@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  padding-bottom: 60px;
+  background-color: rgb(223, 235, 236);
+  max-width: 100%; 
+  max-height: 100%; 
+}
+.footer-display {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  color: white;
+  text-align: center;;
+}
+.footer-display:after {
+    display: block;
+    margin-top: var(--space);
+    height: 0;
+    visibility: hidden;
+}
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+
+/**********************
+ Sign In
+**********************/
+.app-content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+/**********************
+ Profile/Users
+**********************/
+.sideNav {
+  background-color: cadetblue;
+  text-align: center;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.user-table {
+   padding-left: 5em; 
+  
+}
+.editBtn {
+  margin-top: 0.5em;
+}
+/************************/
+#lookupLabel {
+  padding-right: 1em;
+}
+.editUserForm {
+  padding-right: 1em;
+}
+.submit-button {
+  margin: auto;
+}
+/********************
+ * Reimbursements
+ ********************/
+.submit-reim {
+  padding-right: 1em;
+}
+.errorMsg {
+  color: red;
+  font-size: 14pt;
+  font-weight: bold;
+}
+#description {
+  width: 80%;
+}
+#reimType {
+  width: 50%;
+}
